@@ -16,6 +16,17 @@ char func;
 
 while( 1)
 {
+printf("Please choose a transaction type:\n");
+printf("O-Open Account\n");
+ printf("B-Balance Inquiry\n");
+ printf("D-Deposit\n");
+ printf("W-Withdrawal\n");
+ printf("C-Close Account\n");
+ printf("I-Interest\n");
+ printf("P-Print\n");
+ printf(" E-Exit\n");
+ 
+
 printf("what opperation do you want to execute\n");
 scanf(" %c",&func);
 
@@ -48,7 +59,7 @@ while(scanf("%d",&account_number)!=1)
 printf("invalid inout try again\n");
 while(getchar()!='\n'){}
 }
-while(account_number<900||account_number>950)
+while(account_number<901||account_number>950)
 {
 printf("invalid account number try again\n");
 while(scanf("%d",&account_number)!=1)
@@ -73,7 +84,7 @@ printf("invalid inout try again\n");
 
 while(getchar()!='\n'){}
 }
-while(account_number<900||account_number>950)
+while(account_number<901||account_number>950)
 {
 printf("invalid account number try again\n");
 while(scanf("%d",&account_number)!=1)
@@ -107,7 +118,7 @@ while(scanf("%d",&account_number)!=1)
 printf("invalid inout try again\n");
 while(getchar()!='\n'){}
 }
-while(account_number<900||account_number>950)
+while(account_number<901||account_number>950)
 {
 printf("invalid account number try again\n");
 while(scanf("%d",&account_number)!=1)
@@ -137,7 +148,7 @@ while(scanf("%d",&account_number)!=1)
 printf("invalid inout try again\n");
 while(getchar()!='\n'){}
 }
-while(account_number<900||account_number>950)
+while(account_number<901||account_number>950)
 {
 printf("invalid account number try again\n");
 while(scanf("%d",&account_number)!=1)
@@ -188,10 +199,10 @@ break;
 
 
 default : printf("invalid option\n");
-}
+
 if(func=='E')
 break;
-
+}
 
 }
 }

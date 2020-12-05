@@ -7,7 +7,7 @@ double arr[2][n];
 
  void Addaccount(double ammount)
 {
-int c=0;
+int c=1;
 if(ammount<0)
 {
 printf("cant open account with negative ammount\n");
